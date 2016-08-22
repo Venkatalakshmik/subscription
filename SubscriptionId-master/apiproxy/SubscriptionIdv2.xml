@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="SubscriptionIdv2">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1471871206806</CreatedAt>
+    <CreatedBy>ankit.chunduru@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>SubscriptionId</DisplayName>
+    <LastModifiedAt>1471871233257</LastModifiedAt>
+    <LastModifiedBy>ankit.chunduru@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>Extract-SubscriptionId</Policy>
+        <Policy>Output-Display</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

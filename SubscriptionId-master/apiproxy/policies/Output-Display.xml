@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Output-Display">
+    <DisplayName>Output Display</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload contentType="application/json" variablePrefix="@" variableSuffix="#">
+{"subscriptionId":"@apigee.id#","orderId":"36","storeId":"9","orderStatus":"MAKING","estimatedDeliveryTime":"2016-07-29t17:28:24+0000","insertTimestamp":1470154526000,"updateTimestamp":1470080744000}
+        </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>
